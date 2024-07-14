@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "my-font";
+    src: url(./assets/Oswald-VariableFont_wght.ttf);
+}
+
+.hero-section {
+    background-image: url(./assets/developer.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-container {
+    color: white;
+    font-family: "my-font";
+    padding-top: 60px;
+    padding-left: 20%;
+}
+
+.text-container .hi {
+    font-size: 64px;
+    color: goldenrod;
+}
+
+.text-container h1 {
+    font-size: 64px;
+}
+
+.black-box {
+    background-color: black;
+    height: 22vh;
+}
+
+.black-box h1 {
+    color: white;
+    font-family: "my-font";
+    padding-left: 20%;
+    padding-top: 40px;
+    font-size: 64px;
+}
+
+.box-span {
+    color: goldenrod;
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.card {
+    border: 2px solid rgb(245, 242, 238);
+    max-width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    border-radius: 25px;
+    transition: 0.2s ease-in-out;
+}
+
+.card img {
+    width: 320px;
+}
+
+.card h3 {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding: 20px 20px 20px 20px;
+}
+
+.card p {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    padding: 10px 20px 20px 20px;
+}
+
+.second-last {
+    display: flex;
+    min-width: 100vw;
+    margin-top: 20px;
+}
+
+.contact-box {
+    background-color: #515603;
+    width: 50vw;
+    color: white;
+    height: 40vh;
+}
+
+.about-box {
+    background-color: #722300;
+    width: 50vw;
+    color: white;
+    height: 40vh;
+}
+
+.contact-box h1{
+   padding-left: 30px;
+   font-size: 40px;
+   padding-top: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 400;
+}
+
+.about-box h1{
+  padding-left: 30px;
+  font-size: 40px;
+  padding-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+.contact-box p{
+    padding-left: 30px;
+    padding-top: 40px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+.about-box p{
+    padding-left: 30px;
+    padding-top: 40px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+.footer{
+    background-color: black;
+    color: gainsboro;
+    width: 100vw;
+    height: 6vh;
+    text-align: center;
+    padding-top: 10px;
+}
